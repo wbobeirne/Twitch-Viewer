@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="@string/popular_games" android:layout_width="fill_parent" android:gravity="center" android:paddingTop="5dp" android:paddingBottom="20dp" android:id="@+id/popularGamesTitle"></TextView>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="15dp" android:id="@+id/popularGamesRow1">
+        <ImageButton android:id="@+id/popularGame1" android:layout_width="91dip" android:layout_height="127dp" android:layout_marginRight="15dp" android:src="@drawable/boxart_case"></ImageButton>
+        <ImageButton android:id="@+id/popularGame2" android:layout_width="91dip" android:layout_height="127dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_gravity="center" android:src="@drawable/boxart_case"></ImageButton>
+        <ImageButton android:id="@+id/popularGame3" android:layout_width="91dip" android:layout_height="127dp" android:layout_marginLeft="15dp" android:layout_gravity="right" android:src="@drawable/boxart_case"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="15dp" android:id="@+id/popularGamesRow2">
+        <ImageButton android:id="@+id/popularGame4" android:layout_width="91dip" android:layout_height="127dp" android:layout_marginRight="15dp" android:src="@drawable/boxart_case"></ImageButton>
+        <ImageButton android:id="@+id/popularGame5" android:layout_width="91dip" android:layout_height="127dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_gravity="center" android:src="@drawable/boxart_case"></ImageButton>
+        <ImageButton android:id="@+id/popularGame6" android:layout_width="91dip" android:layout_height="127dp" android:layout_marginLeft="15dp" android:layout_gravity="right" android:src="@drawable/boxart_case"></ImageButton>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:paddingBottom="10dp" android:paddingTop="10dp" android:id="@+id/personalizedGamesTitle" android:text="@string/your_games"></TextView>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:gravity="center" android:paddingTop="30dp">
+        <ImageButton android:layout_width="91dip" android:layout_height="127dp" android:src="@drawable/boxart_case" android:id="@+id/searchButton" android:layout_marginRight="15dp"></ImageButton>
+        <ImageButton android:layout_gravity="center" android:layout_width="91dip" android:layout_height="127dp" android:src="@drawable/boxart_case" android:id="@+id/browseButton" android:layout_marginLeft="15dp" android:layout_marginRight="15dp"></ImageButton>
+        <ImageButton android:layout_gravity="right" android:layout_width="91dip" android:layout_height="127dp" android:src="@drawable/boxart_case" android:id="@+id/favoritesButton" android:layout_marginLeft="15dp"></ImageButton>
+    </LinearLayout>
+</LinearLayout>

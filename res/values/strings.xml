@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TwitchViewerActivity!</string>
+    <string name="app_name">Twitch Viewer</string>
+    <string name="popular_games">Popular Games</string>
+    <string name="your_games">Find Your Favorite Games</string>
+    <string name="login">Login</string>
+    <string name="settings">Settings</string>
+</resources>
