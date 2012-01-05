@@ -1,0 +1,13 @@
+This is a WIP Twitch.tv viewer for Android.
+
+Current issues:
+
+Multiple WebViews or multiple videos in a single WebView are spawned, causing slowdown/repeating audio
+WebViews are not destroyed when navigated away from, which causes the audio to keep playing and slowdown
+No loading spinners, looks like application is unresponsive when you select someting
+
+Features that need adding:
+
+Loading animations
+Favorites
+Settings
